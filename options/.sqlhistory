@@ -1,0 +1,10 @@
+show TABLES;
+describe option_chain DESCRIBE option_chain;
+DESCRIBE option_chain;
+describe volatility_history describe volatility_history;
+DESCRIBE volatility_history;
+SELECT date, hv_current, iv_current;
+order by date;
+dolt sql -r csv -q " SELECT date, iv_current, hv_current FROM volatility_history WHERE act_symbol='SPY' ORDER BY date;
+DESCRIBE options_history ;
+DESCRIBE option_chain;
