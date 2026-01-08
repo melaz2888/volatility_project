@@ -48,7 +48,7 @@ volatility:
 python main.py
 
 arbitrage scan:
-python your_scan_script.py
+results folder
 
 outputs:
 - spy_box_arbitrage_allpairs.csv
