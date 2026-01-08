@@ -38,8 +38,10 @@ expected local paths:
 ## setup
 
 python -m venv .venv
-# windows: .venv\Scripts\activate
-# macos/linux: source .venv/bin/activate
+
+windows: .venv\Scripts\activate
+macos/linux: source .venv/bin/activate
+
 pip install -r requirements.txt
 
 ## run
