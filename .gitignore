@@ -1,3 +1,12 @@
 .venv/
 __pycache__/
 .DS_Store
+.venv/
+venv/
+options/.dolt/
+options/*.csv
+spy_box_arbitrage_*.csv
+*.png
+*.pdf
+__pycache__/
+*.pyc
