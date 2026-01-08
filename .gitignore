@@ -10,3 +10,17 @@ spy_box_arbitrage_*.csv
 *.pdf
 __pycache__/
 *.pyc
+
+
+# keep ignoring images everywhere
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# but allow images in images/
+!images/
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
+!images/*.gif
