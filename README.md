@@ -1,6 +1,8 @@
-## volatility + options arbitrage scan (spy)
+## Volatility + options arbitrage scan (spy)
 
-small python project using dolthub options data exported locally as csv.
+Python project using dolthub options data exported locally as csv.
+
+![vix plot](images/VIX.png "vix vs realized volatility")
 
 ## what this repo does
 
@@ -56,5 +58,4 @@ outputs:
 - spy_box_arbitrage_allpairs.csv
 - spy_box_arbitrage_adjacent.csv
 
-![vix plot](images/VIX.png "vix vs realized volatility")
 
