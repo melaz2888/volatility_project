@@ -55,3 +55,6 @@ results folder
 outputs:
 - spy_box_arbitrage_allpairs.csv
 - spy_box_arbitrage_adjacent.csv
+
+![vix plot](images/VIX.png "vix vs realized volatility")
+
